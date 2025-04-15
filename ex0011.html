@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DENTRAN-GO</title>
+</head>
+<style>
+    body{
+        background-color: rgb(185, 223, 185);
+    }
+    input{
+        font: normal 10pt arial;
+        width: 80px;
+        height: 20px;
+    }
+    div#res{
+        font:normal 15pt arial;
+    }
+</style>
+<body>
+    <h1>Sistema de Trasito</h1>
+    Velocidade do carro<input type="number" name="tx1" id="tx1">km/h
+    <input type="button" value="velocidade" onclick="calcular()">
+    <div id = 'res'></div>
+    <script>
+        function calcular(){
+            var tx = document.getElementById('tx1')
+            var res = document.getElementById('res')
+            var vel = Number(tx.value)
+            res.innerHTML = `Sua velocidade foi de ${vel}km/h`
+            if(vel>60){
+                res.innerHTML+='<p>Voçe foi <strong>MUNTADO</strong> por esseder o limite de velocidade '
+            }
+        }
+    
+    </script>
+</body>
+</html>
