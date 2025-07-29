@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentra</title>
+</head>
+<body>
+    <h1>Sistema de trasito</h1>
+    Velocidade do corro <input type="number" name="txtvel" id="txtvel"> 
+    <input type="button" value="Verificar" onclick="Calcular()">
+    <div id="res">
+
+    </div>
+
+
+    <script>
+        let txtv = document.getElementById('txtvel')
+        let res = document.getElementById('res')
+
+        let vel = Number(txtv,value)
+
+        res.innerText = `Sua velocidade e de ${vel}km/h`
+    </script>
+
+</body>
+</html>
