@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imigração</title>
+</head>
+<body>
+    <h1>Migração Brasileira</h1>
+    País:<input type="text" name="txtpas" id="txtpas">
+    <input type="button" value="Verificar" onclick="Verificar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function Verificar(){
+            let txpas = document.getElementById('txtpas')
+            let res = document.getElementById('res')
+
+            let pas = (txpas.value)
+
+            if(pas == 'Brasil'){
+                res.innerHTML += `Voce e Brasilero` 
+            }else{
+                res.innerHTML += `Você e Etrageiro`
+            }
+        }
+    </script>
+</body>
+</html>

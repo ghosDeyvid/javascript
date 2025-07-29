@@ -15,12 +15,19 @@
 
 
     <script>
+        function Calcular(){
         let txtv = document.getElementById('txtvel')
         let res = document.getElementById('res')
 
-        let vel = Number(txtv,value)
+        let vel = Number(txtv.value)
 
         res.innerText = `Sua velocidade e de ${vel}km/h`
+        if(vel >60){
+            res.innerHTML+=`<p>Você ta <strong>MUTADO</strong> </p>`
+        }
+        res.innerHTML+= `<p>Dirija sempre com sinto de segurança </p>`
+ }
+        
     </script>
 
 </body>
