@@ -1,0 +1,20 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(140, 204, 204);
+} 
+header{
+
+}
+section{
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 1px 1px 1px black;
+}
+footer{
+    color: white;
+    text-align: center;
+
+}
