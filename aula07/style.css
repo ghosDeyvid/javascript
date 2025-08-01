@@ -3,15 +3,22 @@ body{
     background: rgb(140, 204, 204);
 } 
 header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
 
 }
 section{
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
     box-shadow: 1px 1px 1px black;
+}
+div{
+    text-align: center;
+    padding: 8px;
 }
 footer{
     color: white;
