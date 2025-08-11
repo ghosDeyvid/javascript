@@ -16,6 +16,9 @@ section{
     margin: auto;
     box-shadow: 1px 1px 1px black;
 }
+input{
+    text-align: center;
+}
 div{
     text-align: center;
     padding: 8px;
