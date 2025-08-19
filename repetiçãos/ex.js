@@ -6,7 +6,7 @@ while(c <= 6){
 }
 */
 let i = 1
-while(i <= 10){
+while(i <= 100){
     console.log(`Numero:${i}`)
     i++
 }
